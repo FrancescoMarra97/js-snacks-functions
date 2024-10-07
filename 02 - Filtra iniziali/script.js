@@ -6,7 +6,7 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 
 // Dichiara la funzione qui.
 function filterNamesByLetter(names, letter) {
-    const filteredNames[];
+    const filteredNames=[];
     for (let i = 0; i < names.length; i++) {
         const element = names[i];
         
@@ -15,10 +15,12 @@ function filterNamesByLetter(names, letter) {
             filteredNames.push(element)
         }
     }
-    return element
+    return filteredNames;
 }
 
 // Invoca la funzione qui e stampa il risultato in console
+const result=filterNamesByLetter(names,"A");
+console.log(result);
 
 
 
