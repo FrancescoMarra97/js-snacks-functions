@@ -4,9 +4,14 @@ const name = 'Mario';
 
 
 // Dichiara la funzione qui.
-
+function sayHi(userName) {
+    const saluto=`Ciao ${userName}`
+    return saluto;
+}
 
 // Invoca la funzione qui e stampa il risultato in console
+const result=sayHi(name);
+console.log(result);
 
 
 
