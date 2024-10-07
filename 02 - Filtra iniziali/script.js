@@ -5,10 +5,17 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 
 
 // Dichiara la funzione qui.
-function filterNamesByLetter(names, "A") {
+function filterNamesByLetter(names, letter) {
     const filteredNames[];
-
-    
+    for (let i = 0; i < names.length; i++) {
+        const element = names[i];
+        
+        // controlla se il nome inizia con una lettera specifica
+        if (element[0]===letter) {
+            filteredNames.push(element)
+        }
+    }
+    return element
 }
 
 // Invoca la funzione qui e stampa il risultato in console
