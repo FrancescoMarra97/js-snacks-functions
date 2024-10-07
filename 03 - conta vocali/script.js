@@ -13,14 +13,14 @@ function findVowels(inputString){
         //controllo se è una vocale
        if (vowels.includes(element)) {
         foundVowels.push(element)
-       }
-       return foundVowels;
+       }  
+    }
+    return foundVowels;
 }
-
 // Invoca la funzione qui e stampa il risultato in console
 const result=findVowels(word);
 console.log(result);
 
-}
+
 
 //Risultato atteso se si passa javascript: 3 (a, a, i)
