@@ -21,7 +21,6 @@ function findVowels(inputString){
 const result=findVowels(word);
 console.log(result);
 
+}
 
-
-
-//Risultato atteso se si passa 'javascript': 3 (a, a, i)
+//Risultato atteso se si passa javascript: 3 (a, a, i)
